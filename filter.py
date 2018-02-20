@@ -86,17 +86,3 @@ def saveImage(img):
 if __name__ == '__main__':
     main()
 
-'''
-1. Develop a program in Python which  reads an image and sigma of Gaussian, and convolves the image with Gaussian filter with given the sigma value, saves and shows the output image 
-def create_Gaussian_filter(sigma):
-      return gaussian_filter
-def Gaussian_filtering(img, gaussian_filter): 
-      return im_out
-2. Show the results with different sigma values. Interpret the results.
-3. Using your program, verify that G(x, sigma1) * G(x,sigma2) = G(x, sigma3)  where 
-sigma1** + sigma**2 = sigma3**2. 
-4. Take the difference between two convolved images with different sigma values. Interpret the results.
-Submit your program and your report showing all your results and your interpretations.
-'''
-
-#https://softwarebydefault.com/2013/06/08/calculating-gaussian-kernels/
